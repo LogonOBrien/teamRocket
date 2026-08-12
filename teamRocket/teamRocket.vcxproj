@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10thloop.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="Logon.cpp" />
   </ItemGroup>
