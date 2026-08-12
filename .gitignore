@@ -1,2 +1,7 @@
 .git
 .vs
+/teamRocket/x64/Debug/teamRocket.exe.recipe
+/teamRocket/x64/Debug/Logon.obj
+/teamRocket/x64/Debug/teamRocket.tlog/Cl.items.tlog
+/teamRocket/x64/Debug/teamRocket.tlog/CL.command.1.tlog
+/.gitignore
