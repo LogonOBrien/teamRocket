@@ -18,5 +18,13 @@
     <ClCompile Include="FizzBuzz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Logon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
