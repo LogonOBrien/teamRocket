@@ -3,9 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Folder Name="/Solution Items/">
-    <File Path="teamRocket/.gitignore" />
-    <File Path="teamRocket/README.md" />
-  </Folder>
   <Project Path="teamRocket/teamRocket.vcxproj" Id="72761118-f14b-465b-a488-38ba7cfada22" />
 </Solution>
