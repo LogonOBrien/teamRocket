@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="teamRocket/teamRocket.vcxproj" Id="72761118-f14b-465b-a488-38ba7cfada22" />
+</Solution>
