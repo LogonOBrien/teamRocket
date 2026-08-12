@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <string>
 
 
 int main() {
@@ -9,18 +10,12 @@ int main() {
 
 	for (int i = 1; i <= 100; ++i) {
 		if (i != blockLoopNumber) {
-			if (i % 3 == 0 && i % 5 == 0) {
-				std::cout << "FizzBuzz\n";
-			}
-			else if (i % 3 == 0) {
-				std::cout << "Fizz\n";
-			}
-			else if (i % 5 == 0) {
-				std::cout << "Buzz\n";
-			}
-			else {
-				std::cout << i << "\n";
-			}
+			std::string output = "";
+			if (i % 3 == 0) output += "Fizz";
+			if (i % 5 == 0) output += "Buzz";
+
+			std::cout << (output.empty() ? std::to_string(i) : output); // output call 1
+			std::cout << "\n"; // output call 2
 		}
 
 	}
