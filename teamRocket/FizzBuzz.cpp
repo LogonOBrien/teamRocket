@@ -24,6 +24,6 @@ int main() {
 		}
 
 	}
-	std::cout << "Logon is done";
+	
 	return 0;
 }
