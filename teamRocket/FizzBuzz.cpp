@@ -11,7 +11,7 @@ int main() {
 
 	for (int i = 1; i <= 100; ++i) {
 		if (i % 3 == 0 && i % 5 == 0) {
-			std::cout << "FizzBuzz\n";
+			std::cout << i << ": FizzBuzz\n";
 			FCount += 1;
 			ICount += 1;
 			BCount += 1;
@@ -19,19 +19,19 @@ int main() {
 			ZCount += 4;
 		}
 		else if (i % 3 == 0) {
-			std::cout << "Fizz\n";
+			std::cout << i << ": Fizz\n";
 			FCount += 1;
 			ICount += 1;
 			ZCount += 2;
 		}
 		else if (i % 5 == 0) {
-			std::cout << "Buzz\n";
+			std::cout << i << ": Buzz\n";
 			BCount += 1;
 			UCount += 1;
 			ZCount += 2;
 		}
 		else {
-			std::cout << i << "\n";
+			std::cout << i << ":\n";
 		}
 		for (int i = 0; i < 26; i++)//26 -> number of letter in the alphabet
 		{
@@ -50,9 +50,9 @@ int main() {
 				break;
 			default: break;
 			}
-				std::cout << static_cast<char>(lowercase + i) << ' -> ' << value << std::endl;
-				value = 0;
+				std::cout << static_cast<char>(lowercase + i) << " -> " << value << '.' << ' ';
 		}
+		std::cout << std::endl;
 	}
 	return 0;
 }
