@@ -140,10 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FizzBuzz.cpp" />
-    <ClCompile Include="Logon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Logon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
